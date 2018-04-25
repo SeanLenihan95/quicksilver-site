@@ -1,0 +1,210 @@
+/* GLOBAL STYLES **/
+
+.insidewrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.item {
+	padding: 0px 33px;
+	margin: 20px 0px;
+	border-left: 2px solid #4B4F52;
+}
+
+.banner {
+	background-color: #49C8C6;
+	margin-bottom: 44px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #393e41;
+}
+
+h1 {
+	font-size: 55px;
+	line-height: 90px;
+	color: #ffffff;
+}
+
+/* HEADER STYLES **/
+
+#header {
+	background-color: #efefef;
+	text-transform: uppercase;
+}
+
+#header ul {
+	display: flex;
+	width: 70%;
+}
+
+#header li {
+	flex: 1;
+}
+
+#header a {
+	font-size: 14px;
+	line-height: 80px;
+	text-align: center;
+	transition: all .3s;
+	color: #393e41; 
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: #49C8C6;
+	border-bottom: 2px solid #ff3b3f;
+	font-size: 16px;
+	transition: all .3s;
+}
+
+/* ABOUT STYLES **/
+
+#about h2 {
+	font-size: 44px;
+	padding-bottom: 13px;
+	border-bottom: 2px solid #ff3b3f;
+}
+
+#mission {
+	width: 336px;
+}
+
+#mission p {
+	font-size: 19px;
+	line-height: 33px;
+	padding-top: 27px;
+}
+
+#video {
+	padding-bottom: 40px;
+}
+
+#youtubevideo {
+	width: 560px; 
+	height: 315px;
+	margin: 36px 0px;
+}
+
+/* TEAM STYLES **/
+
+#team img {
+	width: 397px;
+	height: 397px;
+	border-radius: 50%;
+	border: 5px solid #49C8C6;
+}
+
+#team h2 {
+	font-size: 52px;
+}
+
+#team h3 {
+	font-size: 26px;
+	color: #7b7b7b;
+	border-bottom: 2px solid #ff3b3f;
+	padding: 9px 0px 17px 0px;
+}
+
+#team p {
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 23px;
+}
+
+#petertext {
+	width: 484px;
+	text-align: right;
+	padding-top: 50px;
+}
+
+#peterimg {
+	padding-top: 5px;
+}
+
+#jeantext {
+	width: 484px;
+	text-align: left;
+	padding-top: 65px;
+}
+
+#jeanimg {
+	padding-top: 84px;
+}
+
+#magnetotext {
+	width: 484px;
+	text-align: right;
+	padding-top: 76px;
+}
+
+#magnetoimg {
+	padding-top: 87px;
+}
+
+/* FOOTER1 STYLES **/
+
+#footer1 {
+	background-color: #393e41;
+	text-align: left;
+	margin-top: 60px;
+}
+
+#lastitem .item {
+	border-right: 2px solid #4B4F52;
+}
+
+#footer1 h3 {
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#footer1 a {
+	font-size: 15px;
+	line-height: 25px; 
+	color: #808080;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#footer1 a:hover {
+	color: #acacac;
+	transition: .2s;
+}
+
+/* FOOTER2 STYLES **/
+
+#footer2 {
+	background-color: #131516;
+}
+
+#footer2 a {
+	color: #808080;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .2s;	
+}
+
+#footer2 a:hover {
+	color: #acacac;
+	transition: .2s;	
+}

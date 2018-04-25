@@ -1,0 +1,174 @@
+/* GLOBAL STYLES **/
+
+.insidewrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.item {
+	padding: 0px 33px;
+	margin: 20px 0px;
+	border-left: 2px solid #4B4F52;
+}
+
+.banner {
+	height: 90px;
+	background-color: #49C8C6;
+	margin-bottom: 70px;
+}
+
+.caption {
+	width: 455px;
+	margin: 36px 0px 0px 366px;
+	border-bottom: 2px solid #ff3b3f;
+}
+
+.quotebox {
+	width: 956px;
+	height: 366px;
+	border: 2px solid #e5e5e5;
+	background-image: url(../images/quotebox.jpg);
+	position: relative;
+	margin-bottom: 170px;
+    box-shadow: 3px 3px 5px #e5e5e5;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #393e41;
+}
+
+h1 {
+	font-size: 55px;
+	line-height: 90px;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 28px;
+	text-align: left;
+	margin-bottom: 6px;
+}
+
+h3 {
+	font-size: 17px;
+	color: #7b7b7b;
+	text-align: left;
+	padding-bottom: 8px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+	margin: 58px 150px 0px 156px;
+}
+
+/* HEADER STYLES **/
+
+#header {
+	background-color: #efefef;
+	text-transform: uppercase;
+}
+
+#header ul {
+	display: flex;
+	width: 70%;
+}
+
+#header li {
+	flex: 1;
+}
+
+#header a {
+	font-size: 14px;
+	line-height: 80px;
+	text-align: center;
+	transition: all .3s;
+	color: #393e41; 
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: #49C8C6;
+	border-bottom: 2px solid #ff3b3f;
+	font-size: 16px;
+	transition: all .3s;
+}
+
+/* TESTIMONIALS STYLES **/
+
+#testimonials img {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border: 3px solid #49C8C6;
+	position: absolute;
+	top: 227px;
+	left: 60px;
+}
+
+/* FOOTER1 STYLES **/
+
+#footer1 {
+	background-color: #393e41;
+	text-align: left;
+}
+
+#lastitem .item {
+	border-right: 2px solid #4B4F52;
+}
+
+#footer1 h3 {
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#footer1 a {
+	font-size: 15px;
+	line-height: 25px; 
+	color: #808080;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#footer1 a:hover {
+	color: #acacac;
+	transition: .2s;
+}
+
+/* FOOTER2 STYLES **/
+
+#footer2 {
+	background-color: #131516;
+}
+
+#footer2 a {
+	color: #808080;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .2s;	
+}
+
+#footer2 a:hover {
+	color: #acacac;
+	transition: .2s;	
+}
